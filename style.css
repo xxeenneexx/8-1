@@ -71,19 +71,3 @@ p {
   user-select: none;
   font-weight: bold;
 }
-
-/* Добавляем медиа-запросы для адаптивности */
-@media only screen and (max-width: 768px) {
-  .paper {
-    padding: 10px 50px;
-  }
-  
-  .paper.image p {
-    font-size: 20px;
-  }
-  
-  .paper.heart {
-    width: 150px;
-    height: 150px;
-  }
-}
